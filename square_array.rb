@@ -3,6 +3,6 @@ def square_array(array)
   newSq = []
   array.each do |num|
     newNum = num ** 2
-    newSqpush(newNum)
+    newSq.push(newNum)
   end
 end
