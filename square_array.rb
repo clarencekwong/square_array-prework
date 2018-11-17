@@ -4,4 +4,5 @@ def square_array(array)
   array.each do |num|
     newNum = Math.sqrt(num)
     newSqpush(newNum)
+  end
 end
